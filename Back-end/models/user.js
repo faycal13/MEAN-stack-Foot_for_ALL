@@ -11,6 +11,7 @@ const UserSchema = new Schema({
     password : {type: String,  require: true},
     age : {type: Number,  require: true},
     sex:{type: Number,  require: true},
+    createdDate:{type: Date, default: Date.now }
   });
 
   // Enregistrement de l'utilisateur (toujours hasher les mots de passe en production)
