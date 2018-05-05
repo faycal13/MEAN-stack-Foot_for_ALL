@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 const mongoose = require('mongoose');
-const db = "mongodb://userfaycal:j4p4nvergo@ds111390.mlab.com:11390/footindoordb"
+const db = $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 mongoose.connect(db, err => {
   if (err) {
